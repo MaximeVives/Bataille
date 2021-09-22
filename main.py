@@ -1,3 +1,5 @@
-from View.View import View
+from Controller.Controller import Controller
 
-fen = View()
+game = Controller()
+game.game()
+
